@@ -9,7 +9,7 @@ function Card({name, description, html_url}) { /* props dos cards */
         
         <section className={styles.card}> 
             <h3>{name}</h3>
-            <p>{description}o</p>
+            <p>{description}</p>
             <div className={styles.card_footer}>
                 <div className={styles.card_icones}>
                     <FaHtml5 />  
