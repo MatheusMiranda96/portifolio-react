@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.header a:hover{
+    color: var(--red); /* ALTERAR COR DO BOTÃO AO PASSAR O MOUSER */
+}

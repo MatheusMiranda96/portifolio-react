@@ -1,0 +1,53 @@
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: var(--soft-white);
+    color: var(--gray);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #22222270; /*efeito transparencia do card*/
+    padding: 20px; /* joga os elementos mais pra dentro do card*/
+    display: flex;  /* fica um ao lado do outro no card*/
+    flex-direction: column; /* alinha em coluna um embaixo do outro*/
+    align-items: center;
+    justify-content: space-between; /* espalhando os elementos do card*/
+}
+
+.card h3 {
+    color: var(--primary);
+    
+}
+
+.card_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_icones {
+    display: flex;
+    gap: 10px;
+    color: var(--red);
+    font-size: 1.5rem;
+}
+
+.card_botao {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 1.5rem;
+
+    /* ALINHAMENTO DO ICONE SETA */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card_botao:hover {
+    background-color: var(--red);
+    transition: all .5s;
+}

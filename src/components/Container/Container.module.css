@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-block: 1rem; /*16px em cima e 16px em baixo*/
+    gap: 1rem; /* espaçamento de titulo e divisões*/
+}
